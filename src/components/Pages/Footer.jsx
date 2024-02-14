@@ -7,57 +7,59 @@ export default function Footer() {
     setSelectedOption(event.target.value);
   };
   return (
-    <footer className="py-5">
+    <footer className=" bg-black text-center px-[10%] text-white py-10">
       <div className="text-start">
-        <span className="font-size">Questions? Call 000-800-919-1694</span>
+        <span className="text-sm lg:text-xl">
+          Questions? Call 000-800-919-1694
+        </span>
       </div>
       <br></br>
       <div className="footerlinks bg-black-50 text-start">
-        <ul className="grid grid-cols-4 gap-4   ">
+        <ul className="grid  grid-cols-2  md:grid-cols-4 gap-4  text-sm lg:text-xl ">
           <li>
-            <a href="/faq">FAQ</a>
+            <a className="underline" href="/faq">FAQ</a>
           </li>
           <li>
-            <a href="/Help Centre">Help Centre</a>
+            <a className="underline" href="/Help Centre">Help Centre</a>
           </li>
           <li>
-            <a href="/Account">Account</a>
+            <a className="underline" href="/Account">Account</a>
           </li>
           <li>
-            <a href="/Media Centre">Media Centre</a>
+            <a className="underline" href="/Media Centre">Media Centre</a>
           </li>
           <li>
-            <a href="/Investor Relations">Investor Relations</a>
+            <a className="underline" href="/Investor Relations">Investor Relations</a>
           </li>
           <li>
-            <a href="/">Jobs</a>
+            <a className="underline" href="/">Jobs</a>
           </li>
           <li>
-            <a href="/Ways to Watch">Ways to Watch</a>
+            <a className="underline" href="/Ways to Watch">Ways to Watch</a>
           </li>
           <li>
-            <a href="/Terms of Use">Terms of Use</a>
+            <a className="underline" href="/Terms of Use">Terms of Use</a>
           </li>
           <li>
-            <a href="/Privacy">Privacy</a>
+            <a className="underline" href="/Privacy">Privacy</a>
           </li>
           <li>
-            <a href="/Cookie Preferences">Cookie Preferences</a>
+            <a className="underline" href="/Cookie Preferences">Cookie Preferences</a>
           </li>
           <li>
-            <a href="/">Corporate Information</a>
+            <a className="underline" href="/">Corporate Information</a>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <a className="underline" href="/">Contact Us</a>
           </li>
           <li>
-            <a href="/Speed Test">Speed Test</a>
+            <a className="underline" href="/Speed Test">Speed Test</a>
           </li>
           <li>
-            <a href="/Legal Notices">Legal Notices</a>
+            <a className="underline" href="/Legal Notices">Legal Notices</a>
           </li>
           <li>
-            <a href="/Only on Netflix">Only on Netflix</a>
+            <a className="underline" href="/Only on Netflix">Only on Netflix</a>
           </li>
         </ul>
       </div>
@@ -77,7 +79,7 @@ export default function Footer() {
       </div>
       <br></br>
       <div className="text-start">
-        <span className="font-size">Netflix India</span>
+        <span className="text-sm lg:text-xl">Netflix India</span>
       </div>
     </footer>
   );

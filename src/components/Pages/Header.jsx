@@ -2,11 +2,14 @@ import { FaUserAlt } from "react-icons/fa";
 import { IoIosNotifications } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { BiSearchAlt } from "react-icons/bi";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../../assets/Css/Styles.css";
 export default function Header() {
   const [changeNavbarColor, setchangeNavbarColor] = useState(false);
+  const [pageUrl, setpageUrl] = useState("");
+
+  
 
   const changeNavbarColorFun = () => {
     if (window.scrollY >= 80) setchangeNavbarColor(true);
@@ -55,7 +58,7 @@ export default function Header() {
           </form>
           &nbsp;&nbsp;
           <button className="bg-red-700 text-white p-2 rounded-lg px-5">
-            Sign Out
+            <Link to={"/login"}> Sign Out</Link>
           </button>
         </div>
       </div>
