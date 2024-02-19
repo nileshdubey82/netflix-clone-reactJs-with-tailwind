@@ -8,7 +8,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <section className="py-[100px] flex justify-center bg-[url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg')] bg-no-repeat bg-cover">
+    <section className="py-[100px] flex justify-center bg-[url('/src/assets/images/contact-bg.jpg')] bg-no-repeat bg-cover">
       <div className="w-[40%]  backdrop-blur-sm bg-black/30 p-[50px] rounded-md">
         <h1 className="text-4xl text-white">Contact Us</h1>
         <p className="text-xl text-white my-2">
