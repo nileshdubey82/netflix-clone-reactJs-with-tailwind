@@ -19,11 +19,11 @@ export default function Header() {
   window.addEventListener("scroll", changeNavbarColorFun);
 
   return (
-    // <nav
-    //   className={changeNavbarColor ? "py-5 active" : "py-5"}
-    //   id="navbar-container"
-    // >
-    <nav className="py-5" id="navbar-container">
+    <nav
+      className={changeNavbarColor ? "py-5 active" : "py-5"}
+      id="navbar-container"
+    >
+    {/* <nav className="py-5" id="navbar-container"> */}
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold">
           <img src="/src/assets/images/logo.png" className="Logo" />

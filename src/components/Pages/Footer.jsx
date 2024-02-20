@@ -9,13 +9,13 @@ export default function Footer() {
   return (
     <footer className=" bg-black text-center px-[10%] text-white py-10">
       <div className="text-start">
-        <span className="text-sm lg:text-xl">
+        <span className="text-sm lg:text-sm">
           Questions? Call 000-800-919-1694
         </span>
       </div>
       <br></br>
       <div className="footerlinks bg-black-50 text-start">
-        <ul className="grid  grid-cols-2  md:grid-cols-4 gap-4  text-sm lg:text-xl ">
+        <ul className="grid  grid-cols-2  md:grid-cols-4 gap-4  text-sm lg:text-sm ">
           <li>
             <a className="underline" href="/faq">FAQ</a>
           </li>
@@ -79,7 +79,7 @@ export default function Footer() {
       </div>
       <br></br>
       <div className="text-start">
-        <span className="text-sm lg:text-xl">Netflix India</span>
+        <span className="text-sm lg:text-sm">Netflix India</span>
       </div>
     </footer>
   );

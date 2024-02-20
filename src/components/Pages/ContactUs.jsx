@@ -9,7 +9,7 @@ import React from "react";
 export default function ContactUs() {
   return (
     <section className="py-[100px] flex justify-center bg-[url('/src/assets/images/contact-bg.jpg')] bg-no-repeat bg-cover">
-      <div className="w-[40%]  backdrop-blur-sm bg-black/30 p-[50px] rounded-md">
+      <div className="lg:w-[60%] md:w-[70%] w-[80%]  backdrop-blur-sm bg-black/30 p-[50px] sm:p[20px] rounded-md ">
         <h1 className="text-4xl text-white">Contact Us</h1>
         <p className="text-xl text-white my-2">
           Tell us more and we'll find the best solution for you

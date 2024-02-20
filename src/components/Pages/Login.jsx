@@ -27,7 +27,7 @@ export default function Login() {
             </div>
           </form>
           <br></br>
-          <button className="bg-red-600 text-white p-3 rounded-lg w-80">
+          <button className="bg-red-600 text-white p-3 rounded-lg w-80 hover:bg-white hover:text-red-600">
             Send Sign-in code
           </button>
           <h6 className="text-white text-start w-80 flex justify-center my-3">
